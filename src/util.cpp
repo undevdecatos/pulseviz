@@ -4,6 +4,7 @@
 #include <sys/stat.h>
 #include <pwd.h>
 #include <exception>
+#include <stdexcept>
 
 std::string util::dirname(const std::string& path)
 {
